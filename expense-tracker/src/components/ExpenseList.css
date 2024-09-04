@@ -1,0 +1,51 @@
+
+.expense-list {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .expense-list h2 {
+    margin-bottom: 15px;
+  }
+  
+  .expense-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .expense-list th,
+  .expense-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .expense-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .expense-list tr:hover {
+    background-color: #ddd;
+  }
+  
+  .expense-list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .expense-list button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 1.1em;
+  }
+  
+  .expense-list button:hover {
+    color: #4CAF50;
+  }
+  
